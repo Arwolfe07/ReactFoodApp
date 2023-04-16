@@ -1,0 +1,64 @@
+.form{
+    margin: 1rem 0;
+    height: 12rem;
+    overflow: auto;
+}
+
+.input{
+    margin-bottom: 0.5rem;
+}
+
+.input label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.input input{
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.action {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+.action button{
+    font: inherit;
+    color: #5a1a01;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+}
+
+.action button:hover,
+.action button:active {
+  background-color: #ffe6dc;
+}
+
+.action .submit {
+  border: 1px solid #b53300;;
+  background-color: #b53300;;
+  color: white;
+}
+
+.action .submit:hover,
+.action .submit:active {
+  background-color: #7a2706;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}

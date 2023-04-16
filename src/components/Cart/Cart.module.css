@@ -1,0 +1,46 @@
+.cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 20rem;
+    overflow: auto;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.actions{
+    text-align: right;
+}
+
+.actions button{
+    font:inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #b53300;
+    padding: 0.5rem 2rem;
+    margin-left: 1rem;
+    border-radius: 25px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #932c00;
+  border-color: #932c00;
+  color: white;
+}
+
+.actions .button-close {
+  color: #b53300;
+}
+
+.actions .button {
+  background-color: #b53300;
+  color: white;
+}
